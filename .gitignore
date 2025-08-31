@@ -1,48 +1,41 @@
-# Wordpress - ignore core, configuration, examples, uploads and logs.
-# https://github.com/github/gitignore/blob/main/WordPress.gitignore
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
 
-# Core
-#
-# Note: if you want to stage/commit WP core files
-# you can delete this whole section/until Configuration.
-/wp-admin/
-/wp-content/index.php
-/wp-content/languages
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
-/wp-includes/
-/index.php
-/license.txt
-/readme.html
-/wp-*.php
-/xmlrpc.php
-
-# Configuration
-wp-config.php
-
-# Example themes
-/wp-content/themes/twenty*/
-
-# Example plugin
-/wp-content/plugins/hello.php
-
-# Uploads
-/wp-content/uploads/
+# Temporary files
+*.tmp
+*.bak
+*.swp
 
 # Log files
 *.log
 
-# htaccess
-/.htaccess
+# IDE and editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
 
-# All plugins
-#
-# Note: If you wish to whitelist plugins,
-# uncomment the next line
-#/wp-content/plugins
+# Arduino IDE build artifacts
+# This ignores the temporary build folder and compiled files.
+build/
+*.o
+*.d
+*.eep
+*.elf
+*.hex
+*.lss
+*.sym
+*.map
 
-# All themes
-#
-# Note: If you wish to whitelist themes,
-# uncomment the next line
-#/wp-content/themes
+# PlatformIO build artifacts and dependencies
+# The .pio directory contains firmware, compiled objects, and library dependencies.
+.pio/
+.piolibdeps/
+
+# User-specific configuration files
+# It's good practice to untrack files with sensitive data like WiFi credentials.
+# Add your own secret files here, for example:
+# secrets.h
+# config.h
