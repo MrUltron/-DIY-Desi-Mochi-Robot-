@@ -53,7 +53,25 @@ Connect the components to the Xiao ESP32-C3 as follows.
     * Connect the `B+` and `B-` terminals of the TP4056 charger to the battery.
     * Connect the `OUT+` and `OUT-` terminals of the TP4056 to the `5V` and `GND` pins on the Xiao ESP32-C3.
 
+# Desi Mochi Robot 🤖
 
+A cute, interactive, and completely DIY companion robot made from a Xiao ESP32-C3 and a sculpted copper wire body. Mochi reacts to your touch with expressions and sounds!
+
+![A photo of the completed Desi Mochi Robot](20240401_182110.jpg)
+
+This project is a perfect example of a low-cost, "Desi" (homegrown/DIY) approach to robotics, blending simple electronics with handmade artistry.
+
+## 🖼️ Gallery
+![Mochi side view](IMG_9559.JPG)
+![Mochi close-up](IMG_9561.JPG)
+## ✨ Features
+* **Interactive Touch:** Pat Mochi on its head (TP touch sensor) to see it react.
+* **Expressive Face:** A 0.92" OLED screen serves as Mochi's face, showing different animations.
+* **Sound Feedback:** A buzzer provides simple audio cues for interactions.
+* **Handmade Body:** The unique body is crafted from copper wire, making each Mochi one-of-a-kind.
+* **Rechargeable:** Powered by a 3.7V Li-ion battery with a TP4056 charging module.
+
+---
 ---
 
 ## 🚀 Setup & Installation
