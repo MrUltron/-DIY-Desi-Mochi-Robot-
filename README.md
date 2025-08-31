@@ -62,8 +62,8 @@ A cute, interactive, and completely DIY companion robot made from a Xiao ESP32-C
 This project is a perfect example of a low-cost, "Desi" (homegrown/DIY) approach to robotics, blending simple electronics with handmade artistry.
 
 ## 🖼️ Gallery
-![Mochi side view](IMG_9559.JPG)
-![Mochi close-up](IMG_9561.JPG)
+![Mochi side view](media/IMG_9561.JPG)
+![Mochi close-up](media/IMG_9559.JPG)
 ## ✨ Features
 * **Interactive Touch:** Pat Mochi on its head (TP touch sensor) to see it react.
 * **Expressive Face:** A 0.92" OLED screen serves as Mochi's face, showing different animations.
