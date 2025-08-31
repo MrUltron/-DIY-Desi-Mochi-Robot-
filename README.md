@@ -70,8 +70,8 @@ This project is a perfect example of a low-cost, "Desi" (homegrown/DIY) approach
 * **Sound Feedback:** A buzzer provides simple audio cues for interactions.
 * **Handmade Body:** The unique body is crafted from copper wire, making each Mochi one-of-a-kind.
 * **Rechargeable:** Powered by a 3.7V Li-ion battery with a TP4056 charging module.
-
----
+Here is the link to my project demo video:
+https://youtube.com/shorts/pnR4JQ4UxOs?si=5XIZIw4JDLbaK2SZ
 ---
 
 ## 🚀 Setup & Installation
